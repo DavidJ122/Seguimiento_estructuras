@@ -1,0 +1,20 @@
+import java.util.ArrayList;
+import java.util.List;
+// Generics, Nivel básico, ejercicio 3 incluye clase contenedor
+
+public class ListaContenedor<T> implements Contenedor<T> {
+    
+    private List<T> elementos;
+
+    public ListaContenedor() {
+        this.elementos = new ArrayList<>();
+    }
+
+    public void agregar(T item) {
+        this.elementos.add(item);
+    }
+
+    public T obtener(int indice) {
+        return this.elementos.get(indice);
+    }
+}
