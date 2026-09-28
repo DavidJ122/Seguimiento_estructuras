@@ -1,4 +1,4 @@
-// Generics, Nivel básico, ejercicio 1
+package Generics;// Generics, Nivel básico, ejercicio 1
 
 class Caja <T>{
     private T contenido;

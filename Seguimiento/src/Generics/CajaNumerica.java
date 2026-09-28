@@ -1,4 +1,4 @@
-// Generics, Nivel intermedio, ejercicio 1
+package Generics;// Generics, Nivel intermedio, ejercicio 1
 
 public class CajaNumerica <T extends Number>{
 

@@ -1,3 +1,5 @@
+package Generics;
+
 // Generics, Nivel básico, ejercicio 2
 class mostrarGenerico {
 

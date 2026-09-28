@@ -1,3 +1,5 @@
+package Generics;
+
 public class Contacto implements Comparable<Contacto> {
     private String nombre;
     private String telefono;

@@ -1,4 +1,4 @@
-//Nivel Avanzado ejercicio 1
+package Generics;//Nivel Avanzado ejercicio 1
 
 public class EntidadPersistente<T extends Number & Comparable<T>> {
     private T valor;
